@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytowka</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-<main class="main">
-    <article>
-        <img src="avatar.png" alt="zdjecie Imi i nazwisko">
-        <header>
-            <h1>Imie i nazwisko</h1>
-            <p>Stanowisko</p>
+  </head>
+  <body>
+    <main class="main">
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="zdjecie Imi i nazwisko"
+        />
+        <header class="person__info">
+          <h1 class="person__name">Imie i nazwisko</h1>
+          <p class="person__position">Stanowisko</p>
         </header>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nihil quia aperiam est sunt qui. Minima porro ullam impedit a officia. Perspiciatis, et harum? Magni unde sunt itaque asperiores fugiat.
+        <p class="person__description">
+          Programista z <strong class="special">kilkunastoletnim doswiadczeniem</strong>, fotograf, operator drona, wlaciciel sokola ilenium (na razie tylko z Lego)<strong class="special"> prelegant i szkoleniowiec</strong>. Uwielbia eksperymentowac z nowymi technologiami, w swojej tworczosci ocierajac sie o sztuke.
         </p>
-        <p>
-            W sieci Facebook, Github, Instagram.
-        </p>
-    </article>
-</main>
-</body>
+        <p class="person__description">W sieci <a class="person__link"  href="">Facebook</a>,<a class="person__link" href="">Github</a>,<a class="person__link"href="">Instagram</a></p>
+      </article>
+    </main>
+  </body>
 </html>
